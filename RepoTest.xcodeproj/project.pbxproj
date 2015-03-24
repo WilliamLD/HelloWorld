@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18195CFD1AC102720006E37A /* TestCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18195CFC1AC102720006E37A /* TestCollectionViewCell.m */; };
 		184551E81A4E5C340047F6B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184551E71A4E5C340047F6B6 /* main.m */; };
 		184551EB1A4E5C340047F6B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184551EA1A4E5C340047F6B6 /* AppDelegate.m */; };
 		184551EE1A4E5C340047F6B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184551ED1A4E5C340047F6B6 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18195CFB1AC102720006E37A /* TestCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewCell.h; sourceTree = "<group>"; };
+		18195CFC1AC102720006E37A /* TestCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewCell.m; sourceTree = "<group>"; };
 		184551E21A4E5C340047F6B6 /* RepoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184551E61A4E5C340047F6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184551E71A4E5C340047F6B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				184551EA1A4E5C340047F6B6 /* AppDelegate.m */,
 				184551EC1A4E5C340047F6B6 /* ViewController.h */,
 				184551ED1A4E5C340047F6B6 /* ViewController.m */,
+				18195CFB1AC102720006E37A /* TestCollectionViewCell.h */,
+				18195CFC1AC102720006E37A /* TestCollectionViewCell.m */,
 				184551EF1A4E5C340047F6B6 /* Main.storyboard */,
 				184551F21A4E5C340047F6B6 /* Images.xcassets */,
 				184551F41A4E5C340047F6B6 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				184551EE1A4E5C340047F6B6 /* ViewController.m in Sources */,
 				184551EB1A4E5C340047F6B6 /* AppDelegate.m in Sources */,
+				18195CFD1AC102720006E37A /* TestCollectionViewCell.m in Sources */,
 				184551E81A4E5C340047F6B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				184552071A4E5C340047F6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184552081A4E5C340047F6B6 /* Build configuration list for PBXNativeTarget "RepoTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				1845520A1A4E5C340047F6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
